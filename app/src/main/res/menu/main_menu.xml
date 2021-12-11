@@ -2,9 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/home"
+        android:id="@+id/homeFragment"
         android:title="홈"
         android:icon="@drawable/nav_home"
-        app:showAsAction="collapseActionView"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/departMentFragment"
+        android:title="학과"
+        android:icon="@drawable/department"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/majorFragment"
+        android:title="동아리"
+        android:icon="@drawable/club"
+        android:enabled="true"
         />
 </menu>

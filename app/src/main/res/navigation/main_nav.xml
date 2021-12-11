@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.gsm.software.wig.home.HomeFragment"
+        android:label="홈"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/departMentFragment"
+        android:name="org.gsm.software.wig.department.DepartMentFragment"
+        android:label="학과"
+        tools:layout="@layout/depart_ment_fragment" />
+    <fragment
+        android:id="@+id/majorFragment"
+        android:name="org.gsm.software.wig.major.MajorFragment"
+        android:label="전공동아리"
+        tools:layout="@layout/major_fragment" />
+
+</navigation>
